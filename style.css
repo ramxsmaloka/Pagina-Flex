@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-image: url('https://gremio.blob.core.windows.net/imgs-site/lg-noticias-capa-tulo-2--dono-da-ama-rica-21354.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px;
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.page-section {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.page-section h2 {
+    font-size: 2em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.page-section p {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-wrapper {
+    margin: 20px auto;
+    max-width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.page-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.links-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.link-item {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.link-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.link-item h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.link-item p {
+    font-size: 1em;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.link-item button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #2835f0;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+
+}
+
+.link-item button:hover {
+    background-color: #2c20d085;
+}
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 1em;
+    margin-top: 50px;
+}
